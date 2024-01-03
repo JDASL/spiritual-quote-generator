@@ -1,7 +1,10 @@
 body {
-  background-color: black;
+  background-color: rgb(224, 224, 224);
 }
 h1 {
-  color: rgb(155, 155, 240);
+  color: rgb(135, 135, 213);
   text-align: center;
+}
+a {
+  text-decoration: underline;
 }
