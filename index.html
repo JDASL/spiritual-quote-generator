@@ -7,38 +7,47 @@
     <title>AI Spiritual Quote Generator</title>
   </head>
   <body>
-    <h1>AI Spiritual Quote Generator</h1>
+    <div class="container">
+      <header>
+        <h1>AI Spiritual Quote Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a word of spiritual quote"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>The way is not in the sky; the way is in the heart. - Buddha</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a word of spiritual quote"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="quote">
+          The way is not in the sky; the way is in the heart. - Buddha
+        </div>
+      </main>
 
-    <footer>
-      This AI coding project was created by
-      <a href="https://www.instagram.com/yourgurljd/" target="_blank"
-        >JD Apirinya</a
-      >
-      <a
-        href="https://github.com/JDASL/spiritual-quote-generator.git"
-        target="_blank"
-        >Open source on GitHub
-      </a>
-      and is hosted on
-      <a
-        href="https://ai-spiritual-qoute-generator.netlify.app/"
-        target="_blank"
-        >Netify</a
-      >
-    </footer>
+      <footer>
+        This AI coding project was created by
+        <a href="https://www.instagram.com/yourgurljd/" target="_blank"
+          >JD Apirinya</a
+        >
+        <a
+          href="https://github.com/JDASL/spiritual-quote-generator.git"
+          target="_blank"
+          >Open source on GitHub
+        </a>
+        and is hosted on
+        <a
+          href="https://ai-spiritual-qoute-generator.netlify.app/"
+          target="_blank"
+          >Netify</a
+        >
+      </footer>
+    </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
