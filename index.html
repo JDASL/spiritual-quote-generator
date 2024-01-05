@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Spiritual Quote Generator</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Enter a word of spiritual quote"
@@ -24,9 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="quote">
-          The way is not in the sky; the way is in the heart. - Buddha
-        </div>
+        <div class="quote" id="quote"></div>
       </main>
 
       <footer>
