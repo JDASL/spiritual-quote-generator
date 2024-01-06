@@ -16,7 +16,7 @@ function generateQuote(event) {
   let apiKey = "0of4a675977824391c9f2t2e3d0a170b";
   let prompt = `User instruction: Generate a spiritual quote about ${instructionInput.value}`;
   let context =
-    "You are a wise and spiritual quote expert and love to write about short quotes. Your mission is to generate a one line spiritual quote poem in basic HTML. Make sure to follow the user instructions. Do not include a title to the quote. Sign the quote with `SheCodes AI` inside a <strong> element at the end of the quote";
+    "You are a wise and spiritual quote expert and love to write about short quotes. Your mission is to generate a one line spiritual quote poem in basic HTML. Make sure to follow the user instructions. Do not include a title to the quote. Sign the quote with `SheCodes AI` inside a </ br> <strong> element at the end of the quote";
 
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
