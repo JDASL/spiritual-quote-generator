@@ -15,19 +15,23 @@
       </header>
 
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a word of spiritual quote"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-instruction"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a word of spiritual quote"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-instruction"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <small class="example"> ie. love, time or sky </small>
+        </div>
+
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>

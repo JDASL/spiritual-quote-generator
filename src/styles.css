@@ -18,14 +18,20 @@ h1 {
   font-size: 36px;
   line-height: 1.5;
 }
-
-form {
-  padding: 30px;
+.form-container {
   background-color: rgb(216, 236, 252);
-  box-shadow: 0px 20px 60px rgb(216, 236, 252);
-  border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgb(216, 236, 252);
+  padding: 20px;
+}
+form {
+  display: flex;
+}
+.example {
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 12px;
 }
 .prompt {
   padding: 16px;
@@ -63,9 +69,27 @@ a {
   color: #000000;
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   color: #ffffff;
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
